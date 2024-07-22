@@ -1,39 +1,36 @@
-h3.title {
-	position: relative;
-}
 .weazer {
-	position: absolute;
-	right: 10px;
-	top: 10px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
 }
 .weazer > button {
-	background: #eee;
-	border: 0; 
-	font-size: 16px;
-	padding: 5px;
-	border-radius: 10px;
-	aspect-ratio: 1 / 1;
-	transition: .2s;
+    background: #eee;
+    border: 0;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 10px;
+    aspect-ratio: 1 / 1;
+    transition: 0.2s;
 }
 .weazer > button:hover {
-	background: #fff;
+    background: #fff;
 }
 .weazer > div {
-	width: 200px;
-	top: 0;
-	right: 0;
-	position: absolute;
-	z-index: 1;
-	background: #fff;
-	color: #333;
-	padding: 20px;
-	border-radius: 10px;
-	box-shadow: 0 0 20px 0 rgba(0,0,0,0.15);
-	font-size: 16px;
-	font-family: Arial;
-	cursor: default;
-	display: none;
+    width: 200px;
+    top: 0;
+    right: 0;
+    position: absolute;
+    z-index: 1;
+    background: #fff;
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
+    font-size: 16px;
+    font-family: Arial;
+    cursor: default;
+    display: none;
 }
 .weazer > div.show {
-	display: block;
+    display: block;
 }
